@@ -56,11 +56,11 @@
 		background-color: rgb(140, 139, 139); 
 	}
 
-	img.logo{
+	img{
 		padding-bottom: 10px;
 		padding-right: 30px;
-		padding-top: 0px;
-		height: 90px;
+		padding-top: 10px;
+		height: 100px;
 		width: 130px;
 	}
 	#preload { background: url(check.png) no-repeat -9999px -9999px; height: 1px; width: 1px;}
