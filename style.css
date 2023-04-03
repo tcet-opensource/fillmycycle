@@ -45,5 +45,23 @@
 	img{
 		height: 15px;
 	}
+	.footer {
+		padding-left: 30px;
+		padding-bottom: 5px;
+	}
+
+	hr.footer-line {
+		border: none;
+		height: 1px;
+		background-color: rgb(140, 139, 139); 
+	}
+
+	img.logo{
+		padding-bottom: 10px;
+		padding-right: 30px;
+		padding-top: 0px;
+		height: 90px;
+		width: 130px;
+	}
 	#preload { background: url(check.png) no-repeat -9999px -9999px; height: 1px; width: 1px;}
 }
