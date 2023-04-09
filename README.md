@@ -7,5 +7,7 @@ Android App on Google Play Store - <a href="https://play.google.com/store/apps/d
 
 Demo on YouTube - <a href="https://www.youtube.com/watch?v=uwgYuZJafX4" target="_blank">https://www.youtube.com/watch?v=uwgYuZJafX4</a>
 
+---
+<h3>Screenshot</h3>
 <img src="https://gateway.ipfs.io/ipfs/bafkreig4ke42ddqqmwny2elvvfz4gdoio4mapyuhbsrgybnljer6cjmmlq" alt="Screenshot" title="Screenshot">
 
