@@ -3,11 +3,12 @@ Automatically Fill Cycle in Lab Evaluation Sheet on the back side of Index page.
 
 Website - [https://fillmycycle.tcetmumbai.in/](https://fillmycycle.tcetmumbai.in/)
 
-Android App on Google Play Store - <a href="https://play.google.com/store/apps/details?id=com.sspathare97.fillmycycle" target="_blank">https://play.google.com/store/apps/details?id=com.sspathare97.fillmycycle</a>
+## Contributors
+Adding Contributors to readme as this repo is a fork
+1. [Sagar Pathare](https://github.com/sspathare97)
+2. [DemonKiller](https://github.com/demonkillerr)
+3. [doesnots](https://github.com/doesnots) 
+4. [Karthik Shetty](https://github.com/KarthikShetty27)
 
-Demo on YouTube - <a href="https://www.youtube.com/watch?v=uwgYuZJafX4" target="_blank">https://www.youtube.com/watch?v=uwgYuZJafX4</a>
-
----
-<h3>Screenshot</h3>
+## Screenshot
 <img src="https://gateway.ipfs.io/ipfs/bafkreig4ke42ddqqmwny2elvvfz4gdoio4mapyuhbsrgybnljer6cjmmlq" alt="Screenshot" title="Screenshot">
-
