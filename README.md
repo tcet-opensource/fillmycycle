@@ -7,4 +7,4 @@ Android App on Google Play Store - <a href="https://play.google.com/store/apps/d
 
 Demo on YouTube - <a href="https://www.youtube.com/watch?v=uwgYuZJafX4" target="_blank">https://www.youtube.com/watch?v=uwgYuZJafX4</a>
 
-![Screenshot](/screenshot.png?raw=true "Screenshot")
+![Screenshot](/screenshot.png "Screenshot")
