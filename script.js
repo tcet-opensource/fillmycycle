@@ -54,7 +54,7 @@ function calculate(tbl,ip){
 		for(var i=0;i<5;i++) for(var j=1;j<6;j++)
 			tbl.children[i].children[j].innerHTML="";
 		for(var i=0;i<5;i++){
-			tbl.children[i].children[6-l[i] ].innerHTML='<img src="check.png">';
+			tbl.children[i].children[6-l[i] ].innerHTML='<img src="check.png" style= "height:50px; width:60px;">';
 			w[i]*=l[i];
 		}
 		w.push(marks);
