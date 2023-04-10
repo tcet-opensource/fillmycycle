@@ -11,4 +11,4 @@ Adding Contributors to readme as this repo is a fork
 4. [Karthik Shetty](https://github.com/KarthikShetty27)
 
 ## Screenshot
-<img src="https://gateway.ipfs.io/ipfs/bafkreig4ke42ddqqmwny2elvvfz4gdoio4mapyuhbsrgybnljer6cjmmlq" alt="Screenshot" title="Screenshot">![Screenshot](https://gateway.ipfs.io/ipfs/bafkreig4ke42ddqqmwny2elvvfz4gdoio4mapyuhbsrgybnljer6cjmmlq)
+![Screenshot](https://gateway.ipfs.io/ipfs/bafkreig4ke42ddqqmwny2elvvfz4gdoio4mapyuhbsrgybnljer6cjmmlq)
