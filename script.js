@@ -427,3 +427,74 @@ $(document).ready(function(){
 		location.replace("#man_mode_br");
 	});
 });
+
+//Dark mode 
+const root = document.documentElement.style;
+
+document.addEventListener('DOMContentLoaded', function() {
+	let btnMode = document.getElementById('btn-mode');
+	let modetext = document.getElementById("mode-text");
+	const modeicon = document.getElementById("mode-icon")
+	let darkMode = false;
+
+	btnMode.addEventListener('click', function() {
+		if (darkMode == false) {
+			darkModeProp();
+		  } else {
+			lightModeProp();
+		  }
+	});
+	function darkModeProp() {
+		root.setProperty("--lm-bg", "#131414");
+		root.setProperty("--lm-text-alt", "white");
+		root.setProperty("--lm-text", "rgb(92, 146, 215)");
+		root.setProperty("--lm-input", "black");
+		root.setProperty("--lm-input-text", "white");
+		root.setProperty("--lm-mode-text", "white");
+		root.setProperty("--lm-bg-hover-tr", "#484848");
+		
+		modetext.innerText = "LIGHT";
+		modeicon.src = "./sun-icon.svg";
+		root.setProperty("--lm-icon-bg", "brightness(1000%)");
+		darkMode = true;
+		localStorage.setItem("dark-mode", true);
+	
+	  }
+	  
+	  //SWITCH TO LIGHT MODE - activateLightMode()
+	  function lightModeProp() {
+		root.setProperty("--lm-bg", "#F6F8FF");
+		root.setProperty("--lm-text", "rgb(92, 146, 215)");
+		root.setProperty("--lm-text-alt", "#2b3442");
+		root.setProperty("--lm-input", "white");
+		root.setProperty("--lm-input-text", "black");
+		root.setProperty("--lm-mode-text", "black");
+		root.setProperty("--lm-bg-hover-tr", "#f5f5ee");
+		
+		modetext.innerText = "DARK";
+		modeicon.src = "./moon-icon.svg";
+		root.setProperty("--lm-icon-bg", "brightness(100%)");
+		darkMode = false;
+		localStorage.setItem("dark-mode", false);
+	  }
+	  
+	  function init() {
+		darkMode = false;
+		const value = localStorage.getItem("dark-mode");
+	  
+		if(value === null) {
+		  localStorage.setItem("dark-mode", darkMode);
+		  lightModeProp();
+		}
+		else if(value == "true") {
+		  darkModeProp();
+		}
+		else if(value == "false") {
+		  lightModeProp();
+		}
+	  }
+	  
+	  init();
+
+  });
+

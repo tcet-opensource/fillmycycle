@@ -1,3 +1,82 @@
+:root {
+    --lm-bg: #f6f8ff;
+    --lm-text: #4078ab;
+    --lm-text-alt: #2b3442;
+    --lm-icon-bg: brightness(100%);
+	--lm-input:white;
+	--lm-input-text:black;
+	--lm-mode-text: black;
+	--lm-bg-hover-tr: #f5f5ee;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  
+  body {
+    background-color: var(--lm-bg);
+    font-size: 13px;
+    color: var(--lm-text-alt);
+    width: 100%;
+    height: 100vh;
+  }
+  .title{
+	color: var(--lm-text);
+  }
+  .text-primary{
+	color: var(--lm-text);
+  }
+  .top-container{
+	display: flex;
+	justify-content: center;
+  }
+
+.header {
+	width: 50%;
+	display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+ 
+  #btn-mode {
+	width: 18%;
+    display: flex;
+    align-items: center;
+	flex-direction: row;
+    letter-spacing: 2.5px;
+    color: var(--lm-text);
+    font-weight: bold;
+	margin-top: 1.5%;
+  }
+  #mode-text{
+	color: var(--lm-mode-text);
+	margin-top: 30%;
+  }
+  #mode-icon{
+	color: var(--lm-mode-text);
+	width: auto;
+	height: auto;
+  }
+  
+  #btn-mode:hover {
+    cursor: pointer;
+	/* transition: all 0.5s;
+    transform: scale(1.5); */
+  }
+
+  .form-control{
+	color: var(--lm-input-text);
+	background-color: var(--lm-input);
+  }
+
+  #tbl1 tr:hover,#tbl2 tr:hover,#tbl3 tr:hover{
+	background-color:var(--lm-bg-hover-tr) ;
+  }
+  
+
 @media all{
 	html{
 		height: 100%;
