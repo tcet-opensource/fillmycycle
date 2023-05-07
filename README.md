@@ -10,6 +10,7 @@ Adding Contributors to readme as this repo is a fork
 3. [doesnots](https://github.com/doesnots) 
 4. [Karthik Shetty](https://github.com/KarthikShetty27)
 5. [Darshan Jaju](https://github.com/Horror26)
+6. [Himanshu Agarwal](https://github.com/himanshu-03)
 
 ## Screenshot
 ![Screenshot](https://gateway.ipfs.io/ipfs/bafkreig4ke42ddqqmwny2elvvfz4gdoio4mapyuhbsrgybnljer6cjmmlq)
