@@ -137,10 +137,11 @@
 
 	img{
 		padding-bottom: 10px;
-		padding-right: 30px;
+		padding-right: 15px;
+		padding-left: 15px;
 		padding-top: 10px;
 		height: 100px;
-		width: 130px;
+		width: 110px;
 	}
 	#preload { background: url(check.png) no-repeat -9999px -9999px; height: 1px; width: 1px;}
 }
