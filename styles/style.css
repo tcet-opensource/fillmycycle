@@ -143,5 +143,5 @@
 		height: 100px;
 		width: 110px;
 	}
-	#preload { background: url(check.png) no-repeat -9999px -9999px; height: 1px; width: 1px;}
+	#preload { background: url(../assets/images/check.png) no-repeat -9999px -9999px; height: 1px; width: 1px;}
 }
