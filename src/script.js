@@ -54,7 +54,7 @@ function calculate(tbl,ip){
 		for(var i=0;i<5;i++) for(var j=1;j<6;j++)
 			tbl.children[i].children[j].innerHTML="";
 		for(var i=0;i<5;i++){
-			tbl.children[i].children[6-l[i] ].innerHTML='<img src="../assets/images/check.png" style= "height:50px; width:60px;">';
+			tbl.children[i].children[6-l[i] ].innerHTML='<img src="./assets/images/check.png" style= "height:50px; width:60px;">';
 			w[i]*=l[i];
 		}
 		w.push(marks);
@@ -277,7 +277,7 @@ function cell_check(event){
 		for(var j=1;j<6;j++){
 			tbl[0].children[row].children[j].innerHTML="";
 		}
-		tbl[0].children[row].children[col+1].innerHTML='<img src="../assets/images/check.png">';
+		tbl[0].children[row].children[col+1].innerHTML='<img src="./assets/images/check.png">';
 		check_man();
 	}
 }
@@ -454,7 +454,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		root.setProperty("--lm-bg-hover-tr", "#484848");
 		
 		modetext.innerText = "LIGHT";
-		modeicon.src = "../assets/icons/sun-icon.svg";
+		modeicon.src = "./assets/icons/sun-icon.svg";
 		root.setProperty("--lm-icon-bg", "brightness(1000%)");
 		darkMode = true;
 		localStorage.setItem("dark-mode", true);
@@ -472,7 +472,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		root.setProperty("--lm-bg-hover-tr", "#f5f5ee");
 		
 		modetext.innerText = "DARK";
-		modeicon.src = "../assets/icons/moon-icon.svg";
+		modeicon.src = "./assets/icons/moon-icon.svg";
 		root.setProperty("--lm-icon-bg", "brightness(100%)");
 		darkMode = false;
 		localStorage.setItem("dark-mode", false);
